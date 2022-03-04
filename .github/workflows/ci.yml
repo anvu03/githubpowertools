@@ -5,10 +5,8 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main, 'feature/**' ]
-  pull_request:
     branches: [ main ]
-    types: [opened, reopened]
+  pull_request:
 
 env:
   NODE_VERSION: 16.x
